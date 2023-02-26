@@ -1,0 +1,66 @@
+<html>
+
+<title>
+User Registration
+</title>
+<head>
+<link rel="stylesheet" href="s208043.css">
+</head>
+<body>
+    <img src="icon.gif" alt />
+<i><B><h1><p align = "center">HSUHK User Registration </p></h1></B></i>
+<form method="get" action="action.php">
+<p align = "center"><table border=2>
+    <tr>
+        <td><p align = "center">Student ID </p></td>
+        <td><input type="text" name="tb" value="" size=50 maxlength=10 required/></td>
+    </tr>
+    <tr>
+        <td><p align = "center">Password</p></td>
+        <td> <input type="text" name="tb" value="" size=50 maxlength=10 required/> </td>
+    </tr>
+    <tr>
+        <td><p align = "center">Date of birth</p></td>
+        <td> <input type="text" name="tb" value="" size=50 maxlength=10 /> </td>
+    </tr>
+    <tr>
+        <td><p align = "center">Programme</p></td>
+        <td>
+            <input type="radio" name="radio" value="1" required> BBA </input>
+            <input type="radio" name="radio" value="2" required> BA </input>
+            <input type="radio" name="radio" value="3" required> BSc </input>
+            <input type="radio" name="radio" value="4" required> BEng </input>
+    </tr></td>
+    <tr>
+        <td><p align = "center">Year</p></td>
+        <td>
+            <select>
+                <option value="5">1</option>
+                <option value="6">2</option>
+                <option value="7">3</option>
+                <option value="8">4</option>
+            </select>
+        </tr></td>
+
+    <br />
+    <tr>
+        <td><p align = "center">Learn lucky draw from</p></td>
+        <td>
+            <input type="checkbox" name="checkbox4" value="9"> HSU website </input>
+            <input type="checkbox" name="checkbox5" value="10"> Friends </input>
+            <input type="checkbox" name="checkbox6" value="11"> Teachers </input>
+            <input type="checkbox" name="checkbox6" value="12"> Others </input>
+    </tr></td>
+    <br />
+    <tr>
+        <td colspan="2" align = "center"><input type="submit" class = "button" value="Submit" /><input type="reset" class = "button" value="Reset" /></td>
+  
+
+</tr>
+</table>
+
+</p></form>
+
+</body>
+
+</html>
